@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden{
+	display:none;
+}
+.box{
+	display: -moz-box; 
+	display: -webkit-box; 
+	display: box;
+}
+.lang_button{
+	width:100px;
+	height:100px;
+	background:#F1B484; 
+	margin:20px;
+	text-align:center;
+	line-height:100px;
+	text-shadow: 1px 1px 4px #000;
+	font-size:1.2em;
+	color:#FFDBAD;
+}
+#lang_wrapper{
+	-moz-box-orient: horizontal; 
+	-webkit-box-orient:horizontal; 
+	box-orient:horizontal; 
+	-moz-box-align:center;
+	-webkit-box-align:center;
+	box-align:center;
+	-moz-box-pack:center;
+	-webkit-box-pack:center;
+	box-pack:center;
+}
+#start_but{
+  width:150px;
+	height:75px;
+	background:#8073D2;
+	color:#EEE;
+	text-shadow: 2px 2px 3px #000;
+	font-size: 2em;
+	text-align:center;
+	line-height:75px;
+	}
+.wrapper{
+	display: -moz-box; 
+	display: -webkit-box; 
+	display: box;
+	-moz-box-orient: horizontal; 
+	-webkit-box-orient:horizontal; 
+	box-orient:horizontal; 
+	-moz-box-align:center;
+	-webkit-box-align:center;
+	box-align:center;
+	-moz-box-pack:center;
+	-webkit-box-pack:center;
+	box-pack:center;
+}

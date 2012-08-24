@@ -3,38 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <title>Media Loader</title>
-<link type="text/css" rel="stylesheet" href="_css/loader.css">
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript">google.load("jquery", "1");</script>
 <script src="_js/loader.js"></script>
 </head>
 
 <body>
-<!--<div>
+<div>
 <audio id="au" controls preload="none">
 	<source src="_media/_audio/dirsEnglish.m4a" type="audio/mp4" />
   <source src="_media/_audio/dirsEnglish.ogg" type="audio/ogg" />
   <source src="_media/_audio/dirsEnglish.mp3" type="audio/mpeg" />
   <p>Your browser does not support the audio element.</p>
 </audio>
-</div>-->
-
-<!-- Load audio files with progress visual progress bar for ui -->
-<div id="media_buffer" class="hidden"></div>
-
-<div id="main">
-
-  <div id="lang_wrapper" class="hidden">
-    <div id="eng_but" class="lang_button">English</div>
-    <div id="spn_but" class="lang_button">Español</div>
-  </div>
-  
-  <div class="wrapper">
-    <div id="start_but">Start</div>
-  </div>
-  
-  <div id="load_progress">0%</div>
-  
 </div>
+
+<div>
+<video id="vi" controls preload="auto" poster="_media/_video/in8.png">
+	<source src="_media/_video/in8.m4v" type="video/mp4" />
+  <source src="_media/_video/in8.ogv" type="video/ogg" />
+  <p>Your browser does not support the video element.</p>
+</video>
+</div>
+
+<div id="click_me" style="width:100px;height:100px;background:#0F0;margin:25px;"></div>
+<div id="load_progress">0%</div>
 </body>
 </html>
