@@ -19,6 +19,24 @@
 	text-shadow: 1px 1px 4px #000;
 	font-size:1.2em;
 	color:#FFDBAD;
+	cursor:pointer;
+}
+.lang_button:hover{
+	-webkit-box-shadow: 0px 0px 25px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 25px rgba(50, 50, 50, 0.75);
+	box-shadow:
+}
+#tool_bar{
+	-moz-box-orient: horizontal; 
+	-webkit-box-orient:horizontal; 
+	box-orient:horizontal; 
+	-moz-box-align:center;
+	-webkit-box-align:center;
+	box-align:center;
+	-moz-box-pack:center;
+	-webkit-box-pack:center;
+	box-pack:center;
+	clear:both;
 }
 #lang_wrapper{
 	-moz-box-orient: horizontal; 
@@ -31,7 +49,7 @@
 	-webkit-box-pack:center;
 	box-pack:center;
 }
-#start_but{
+#start_btn{
   width:150px;
 	height:75px;
 	background:#8073D2;
@@ -41,7 +59,8 @@
 	text-align:center;
 	line-height:75px;
 	}
-.wrapper{
+.wrapper{}
+#main_content{
 	display: -moz-box; 
 	display: -webkit-box; 
 	display: box;
@@ -54,4 +73,65 @@
 	-moz-box-pack:center;
 	-webkit-box-pack:center;
 	box-pack:center;
+}
+.glow{
+	-webkit-box-shadow: 0px 0px 25px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 25px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 25px rgba(50, 50, 50, 0.75);
+}
+@media only screen and (device-width: 768px) {
+
+}
+
+@media only screen and (max-width: 999px) {
+  /* rules that only apply for canvases narrower than 1000px */
+}
+
+@media only screen and (device-width: 768px) and (orientation: landscape) {
+		/* rules for iPad in landscape orientation */
+	.lang_button{
+		width:200px;
+		height:200px;
+		background:#F1B484; 
+		margin:40px;
+		text-align:center;
+		line-height:200px;
+		text-shadow: 2px 2px 8px #000;
+		font-size:2.4em;
+		color:#FFDBAD;
+		cursor:pointer;
+	}
+	.glow{
+		-webkit-box-shadow: 0px 0px 50px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    0px 0px 50px rgba(50, 50, 50, 0.75);
+		box-shadow:         0px 0px 50px rgba(50, 50, 50, 0.75);
+	}
+	.btn_S{
+		width:35px;
+		height:35px;
+		text-align:center;
+		line-height:35px;
+		font-size:2em;
+		cursor:pointer;
+	}
+	.btn_M{}
+	.btn_L{}
+	.btn_XL{}
+	
+	#help_btn{
+		background:#00F;
+		margin:25px;
+		font-weight:bold;
+		color:#fff;
+	}
+	#close_btn{
+		background:#F00;
+		color:#000;
+		margin:25px;
+		font-weight:bold;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* iPhone, Android rules here */
 }
