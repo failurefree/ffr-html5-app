@@ -24,7 +24,10 @@
 .lang_button:hover{
 	-webkit-box-shadow: 0px 0px 25px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    0px 0px 25px rgba(50, 50, 50, 0.75);
-	box-shadow:
+	box-shadow:					0px 0px 25px rgba(50, 50, 50, 0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 #tool_bar{
 	-moz-box-orient: horizontal; 
@@ -100,6 +103,9 @@
 		font-size:2.4em;
 		color:#FFDBAD;
 		cursor:pointer;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
 	}
 	.glow{
 		-webkit-box-shadow: 0px 0px 50px rgba(50, 50, 50, 0.75);
@@ -113,6 +119,9 @@
 		line-height:35px;
 		font-size:2em;
 		cursor:pointer;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
 	}
 	.btn_M{}
 	.btn_L{}
